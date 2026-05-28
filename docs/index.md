@@ -32,7 +32,7 @@ Ici vous publierez le poster de votre projet.
 ## Vidéo
 
 Ici vous publierez la vidéo de votre projet. 
-- 1min30 au format vertica
+- 1min30 au format vertic
 - Présentation du projet 
 - Des explication du fonctionnement du projet
 - Des vues du projet / Prototype / Application etc... 

@@ -6,7 +6,21 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+Le projet OTTO-MKS, c'est le tout premier projet de robotique des premières années d'ingénieur à UniLaSalle Amiens.
+
+Le but est simple : fabriquer et programmer un petit robot humanoïde en équipe. Nous sommes partis d'un modèle open-source ultra-connu (le robot Otto DIY), et le MakerSpace de l'école l'a amélioré pour créer l'OTTO-MKS, une version plus puissante connectée en Bluetooth et Wi-Fi.
+
+Ce projet nous permet d'apprendre les bases du métier d'ingénieur :
+
+* Mécanique : Modéliser et imprimer des pièces en 3D.
+
+* Électronique : Connecter les moteurs et les capteurs.
+
+* Programmation : Coder les mouvements et l'intelligence du robot.
+
+Le point culminant du projet ? Les Ottolympiades ! Un grand tournoi où nos robots s'affrontent lors de la Journée des Projets dans des épreuves de course, de sumo et de tir à la corde.
+
+Ce document présente notre travail, nos choix techniques et notre robot final pour la compétition.
 
 ## Contexte du Projet
 
@@ -22,7 +36,7 @@ Le MakerSpace d'Amiens a repris ce concept open-source pour l'adapter aux besoin
 
 Les objectifs du projet OTTO-MKS s'articulent autour de trois grands axes : pédagogique, technique et événementiel.
 
-**Objectifs pédagogiques**
+**Objectifs pédagogiques**:
 
 On travaille par groupe de trois avec pour objectifs de :
 
@@ -32,7 +46,7 @@ On travaille par groupe de trois avec pour objectifs de :
 
 * Développer des compétences transversales : Travailler en équipe, documenter techniquement un projet (via un rapport ou un site web) et vulgariser leur travail à travers une vidéo de présentation professionnelle d'une minute.
 
-**Objectifs techniques**
+**Objectifs techniques**:
 
 * S'approprier et itérer : Au-delà du modèle de base fourni, l'objectif est de faire preuve de créativité. On doit modifier le code et le design du robot, y ajouter des fonctionnalités (bras articulés, écrans OLED, capteurs gyroscopiques, lumières).
 
@@ -40,7 +54,7 @@ On travaille par groupe de trois avec pour objectifs de :
 
 * Améliorer ses compétences avec les logiciels et dans le code (Arduino)
 
-**Objectifs événementiel**
+**Objectifs événementiel**:
 
 Le projet culmine chaque année lors de la Journée des Projets d'UniLaSalle Amiens, à travers un grand tournoi de robotique ludique et technique appelé les Ottolympiades (arbitré par l'association UniMakers). L'objectif ultime des étudiants est de préparer leur robot à valider l'homologation technique pour s'affronter dans 4 épreuves :
 
@@ -54,7 +68,11 @@ Tir à la corde : Une épreuve de force motrice par équipes de 3 robots.
 
 # Existant
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+Notre projet s'appuie sur le robot bipède open-source Otto DIY, largement utilisé dans le domaine éducatif pour l'initiation aux STEM. Ce système existant est composé d'une structure imprimable en 3D, de 4 servomoteurs SG90 pour la locomotion, et d'un capteur ultrason HC-SR04 pour la détection d'obstacles.
+
+Dans sa version standard, le contrôle est assuré par un microcontrôleur Arduino Nano. Bien que fonctionnelle pour un usage récréatif, cette configuration présente des limites techniques pour les objectifs des Ottolympiades : l'absence de connectivité sans fil native (Wi-Fi/Bluetooth) et la fragilité du câblage interne due à la superposition de cartes (Shield + Arduino).
+
+C'est pour pallier ces limites que le MakerSpace d'UniLaSalle Amiens a développé la version OTTO-MKS, remplaçant cet existant par une carte électronique sur mesure intégrant une puce ESP32-C3.
 
 # Cahier des Charges
 

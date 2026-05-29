@@ -76,4 +76,35 @@ C'est pour pallier ces limites que le MakerSpace d'UniLaSalle Amiens a développ
 
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+**Dimensions**
+
+Concernant les dimensions, Le robot devra faire au maximum :
+
+Largeur : 150 mm
+Longueur : 150 mm
+Hauteur : 200 mm
+
+**Déplacement**
+
+Pour les déplacements, le robot devra se déplacer en marchant.
+L’interrupteur d’alimentation doit rester accessible en tout temps par l’arbitre afin d’arrêter le robot en cas de situation de danger pour lui-même, les autres robots, ou les éléments de jeu.
+
+**Fabrication**
+
+Le robot doit être fabriqué et programmé par les étudiant(e)s sans l’utilisation d’un kit du commerce. 
+La modification est fortement encouragée mais ces derniers ne doivent pas pouvoir endommager le robot adverse. Les dispositifs présentant un danger sont évidemment proscrit.
+
+**Mode de controle**
+
+En fonction de l’épreuve, deux modes de fonctionnement pourront vous être demandés, précisés dans le règlement de l’épreuve :
+
+* Mode autonome
+Le robot doit être en mesure de réaliser l’épreuve sans aide extérieure ; il devra donc être programmé à l’avance pour jouer. Le signal de démarrage est propre à chaque épreuve et est spécifié dans son règlement.
+
+* Mode télécommandé
+Vous devrez programmer une solution de contrôle à distance, par exemple grâce à l’application RemoteXY.
+
+
+
+
+

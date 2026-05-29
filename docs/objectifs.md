@@ -80,9 +80,9 @@ C'est pour pallier ces limites que le MakerSpace d'UniLaSalle Amiens a développ
 
 Concernant les dimensions, Le robot devra faire au maximum :
 
-Largeur : 150 mm
-Longueur : 150 mm
-Hauteur : 200 mm
+* Largeur : 150 mm
+* Longueur : 150 mm
+* Hauteur : 200 mm
 
 **Déplacement**
 

@@ -12,7 +12,7 @@ Pour aborder efficacement les différentes épreuves des Ottolympiades, on a dû
 
 Le design de notre OTTO-BMW a été pensé pour répondre aux contraintes physiques des épreuves de force et de vitesse :
 
-* Abaissement du centre de gravité (Pour le Sumo) : Pour éviter que notre robot ne bascule facilement lors des duels sur le ring, nous avons choisi de placer la batterie le plus bas possible dans le corps du robot. De plus, nous avons augmenté le taux de remplissage (infill) des pieds à 50 % (contre 20 % pour le reste du corps) afin d'alourdir la base et d'améliorer la stabilité.
+* Abaissement du centre de gravité (Pour le Sumo) : Pour éviter que notre robot ne bascule facilement lors des duels sur le ring, nous avons choisi de placer la batterie le plus bas possible dans le corps du robot. De plus, nous avons augmenté le taux de remplissage des pieds afin d'alourdir la base et d'améliorer la stabilité.
 
 * Adhérence des pneumatiques (Pour le Tir à la corde) : Les pieds en plastique PLA lisse d'origine glissaient sur la piste. En étudiant les solutions, nous avons décidé d'ajouter du papier de verre (découpée dans une chambre à air) sous les pieds du robot. Ce choix technique mime l'adhérence des pieds d'une vraie sportive et augmente notre force de traction de manière significative.
 

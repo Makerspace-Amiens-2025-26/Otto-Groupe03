@@ -6,7 +6,7 @@ title: Études et choix techniques
 
 # Études et choix techniques
 
-**CHÂSSIS :
+**CHÂSSIS**:
 
 Pour aborder efficacement les différentes épreuves des Ottolympiades, on a dû faire des choix stratégiques. Il ne s'agissait pas seulement de donner un look "sport" à notre robot, mais d'utiliser l'univers mécanique de BMW pour optimiser ses performances réelles sur la piste.
 
@@ -18,7 +18,7 @@ Le design de notre OTTO-BMW a été pensé pour répondre aux contraintes physiq
 
 * L'Aileron M Performance (Utilité technique) : Au-delà du look, l'aileron arrière a été conçu avec un angle d'inclinaison spécifique pour servir de point d'ancrage solide et centré pour la corde lors de l'épreuve du Tir à la corde, évitant ainsi de désaxer le robot pendant l'effort.
 
-**MOTORISATION : 
+**MOTORISATION** : 
 
 Bien que la carte mère OTTO-MKS (ESP32-C3) soit imposée, nous avons optimisé l'utilisation des périphériques :
 
@@ -27,7 +27,7 @@ Bien que la carte mère OTTO-MKS (ESP32-C3) soit imposée, nous avons optimisé 
 * Le Capteur Ultrason HC-SR04 (Les "Phares") : Intégré esthétiquement comme des optiques de phares BMW, ce capteur calcule la distance en mesurant le temps de retour d'une onde ultrason. Nous l'avons configuré pour deux fonctions clés : stopper le robot à 15 cm d'un mur (Course d'obstacles) et détecter la présence de l'adversaire à moins de 25 cm pour foncer dessus (Mode Sumo).
 
 
-**LOGICIELS ET STRATEGIES :
+**LOGICIELS ET STRATEGIES** :
 
 Le comportement du robot a été programmé sous l'IDE Arduino. Nous avons créé une véritable "cartographie moteur" adaptée à chaque épreuve :
 

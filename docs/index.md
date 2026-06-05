@@ -51,7 +51,7 @@ c) Calibrage des servomoteurs et finitions esthétiques
 
 d) Itérations et corrections après les premiers tests 
 
-V. Retours d'Expérience et Résultats 
+* V. Retours d'Expérience et Résultats 
 
 a) Déroulement des épreuves 
 

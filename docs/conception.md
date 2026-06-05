@@ -11,4 +11,4 @@ Pour nous démarquer lors des épreuves et des Ottolympiades, notre équipe a ch
 Nous avons modélisé deux petits rétroviseurs latéraux profilés. Ils ont été conçus pour s'emboîter directement dans des encoches ajoutées sur les côtés de la tête du robot.
 
 
-<img src="images/DSC01364.JPG" alt="Image robot" width="300"/>
+<img src="images/DSC01364.JPG" alt="Image robot" width="500"/>

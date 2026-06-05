@@ -22,7 +22,7 @@ Comme l'illustre la figure ci-dessus, notre conception finale intègre des élé
 
 **Prototypage et Fabrication**
 
-<img src="images/DSC01364.JPG" alt="Image robot" width="400"/>  
+<img src="images/DSC01368.JPG" alt="Image robot" width="400"/>  
 <img src="images/DSC01368.ARW" alt="Image robot" width="400"/>
 
 

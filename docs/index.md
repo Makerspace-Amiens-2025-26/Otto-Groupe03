@@ -15,7 +15,7 @@ Bienvenue dans la documentation du projet OTTO-MKS. Ce site a pour but de fourni
 
 Présentation globale du projet, contexte du MakerSpace d'Amiens et présentation de votre équipe (Le projet "OTTO-BMW").
 
-* 1. Contexte et Analyse de l’Existant
+* I. Contexte et Analyse de l’Existant
 
 a) Le projet open-source Otto DIY standard
 
@@ -23,7 +23,7 @@ b) Limites techniques du modèle d'origine
 
 c) La transition vers la version OTTO-MKS
 
-* 2. Études et Choix Techniques
+* II. Études et Choix Techniques
 
 a) Objectifs de performance pour les Ottolympiades
 
@@ -33,7 +33,7 @@ c) Choix électroniques
 
 d) Stratégies logicielles et modes de conduite 
 
-* 3. Conception du Système 
+* III. Conception du Système 
 
 a) Modélisation 3D sur OnShape 
 
@@ -41,7 +41,7 @@ b) Architecture matérielle et connectivité
 
 c) Logigrammes et algorithmes de fonctionnement 
 
-* 4. Prototypage, Fabrication et Assemblage
+* IV. Prototypage, Fabrication et Assemblage
 
 a) Paramètres d'impression 3D au MakerSpace
 
@@ -51,7 +51,7 @@ c) Calibrage des servomoteurs et finitions esthétiques
 
 d) Itérations et corrections après les premiers tests 
 
-5. Retours d'Expérience et Résultats 
+V. Retours d'Expérience et Résultats 
 
 a) Déroulement des épreuves 
 

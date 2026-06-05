@@ -74,6 +74,8 @@ Dans sa version standard, le contrôle est assuré par un microcontrôleur Ardui
 
 C'est pour pallier ces limites que le MakerSpace d'UniLaSalle Amiens a développé la version OTTO-MKS, remplaçant cet existant par une carte électronique sur mesure intégrant une puce ESP32-C3.
 
+![Image robot](images/poster.jpg)
+
 # Cahier des Charges
 
 **Dimensions**

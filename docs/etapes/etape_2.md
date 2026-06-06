@@ -22,4 +22,4 @@ Après la préparation des matériaux, l'étape suivante est l'assemblage.
 
 ## Problèmes Communs et Solutions
 
-- Si des pièces ne s'emboîtent pas correctement, vérifiez leur alignement et leur dimension
+- Si des pièces ne s'emboîtent pas correctement, vérifiez leur alignement et leur dimension (on peut modifier légèrement l'échelle des pièces dans le slicer directement)

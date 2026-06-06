@@ -11,9 +11,9 @@ Cette section décrit la première étape du processus de fabrication : la prép
 
 ## Liste des Matériaux
 
-- Matériau A
-- Matériau B
-- Outils nécessaires
+- L'ensemble du dossier STL imprimé en 3d (PLA
+- Un set de tournevisse
+- Du papier de verre + gros grain possible
 
 ## Procédure de Préparation
 

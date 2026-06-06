@@ -11,7 +11,7 @@ Cette section décrit la première étape du processus de fabrication : la prép
 
 ## Liste des Matériaux
 
-- L'ensemble du dossier STL imprimé en 3d (PLA
+- L'ensemble du dossier STL imprimé en 3d (PLA)
 - Un set de tournevisse
 - Du papier de verre + gros grain possible
 

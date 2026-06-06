@@ -20,7 +20,7 @@ Cette section décrit la première étape du processus de fabrication : la prép
 1. **Nettoyage** : Nettoyez les impressions enn retirant les supports et bavure
 2. **Découpe** : Découpez le papier de verre a la taile des pieds en laissant une bande vide de 1cm a l'edxterieur du pied
 
-<img src="images/pied.png" alt="Image pied" width="300"/>
+![image pied](images/pied.png)
 
 ## Conseils de Sécurité
 

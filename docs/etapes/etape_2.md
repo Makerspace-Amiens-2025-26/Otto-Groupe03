@@ -1,3 +1,10 @@
+---
+layout: default
+title: Assemblage
+parent: Etapes de fabrication
+nav_order: 2
+---
+
 # Assemblage
 
 Après l’impression des pièces en 3D, l’étape suivante est l’assemblage du robot Otto.  

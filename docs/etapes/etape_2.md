@@ -226,6 +226,7 @@ Avant de tester le robot, il faut vérifier que :
 Cela peut venir d’un mauvais centrage des servomoteurs.
 
 Il faut relancer le programme de positionnement à 90°, puis replacer les jambes ou les pieds correctement.
+Si le problème persiste il faut ajuster les trims dans le code 
 
 ### Les pièces ne s’emboîtent pas correctement
 

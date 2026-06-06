@@ -17,9 +17,9 @@ Cette section décrit la première étape du processus de fabrication : la prép
 
 ## Procédure de Préparation
 
-1. **Nettoyage** : Nettoyez tous les matériaux pour enlever la poussière et les débris.
-2. **Découpe** : Découpez les matériaux A et B selon les dimensions spécifiées.
-3. **Prétraitement** : Appliquez un traitement de surface si nécessaire.
+1. **Nettoyage** : Nettoyez les impressions enn retirant les supports et bavure
+2. **Découpe** : Découpez le papier de verre a la taile des pieds en laissant une bande vide de 1cm a l'edxterieur du pied
+
 
 ## Conseils de Sécurité
 

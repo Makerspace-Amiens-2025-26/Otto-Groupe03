@@ -80,7 +80,7 @@ Le projet cherche à résoudre plusieurs problèmes concrets :
 
 Ici vous publierez le poster de votre projet.
 
-![Poster projet](images/poster.jpg)
+![Poster projet](images/poster.png)
 
 ## Vidéo
 

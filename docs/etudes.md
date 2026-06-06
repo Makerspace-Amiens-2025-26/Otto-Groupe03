@@ -35,8 +35,6 @@ Le comportement du robot a été programmé sous l'IDE Arduino. Nous avons cré�
 
 * Pour le tir à la corde, nous avons programmé une fonction de marche arrière mais avec de petites amplitudes de pas pour que le robot soit le plus stable possible.
 
-* Pour le Sumo et le Tir à la corde, la vitesse ne sert à rien. Le code a été modifié pour que les servomoteurs avancent millimètre par millimètre en exerçant une pression constante sur le sol, maximisant ainsi le couple et la puissance de poussée.
-
 
 
 

@@ -1,660 +1,336 @@
-<style>
-.image-texte {
-  display: flex;
-  align-items: center;
-  gap: 35px;
-  margin: 30px 0;
-}
-
-.image-texte img {
-  width: 330px;
-  max-width: 45%;
-}
-
-.image-texte .texte {
-  flex: 1;
-}
-
-.image-texte-small img {
-  width: 180px;
-  max-width: 30%;
-}
-
-.warning-box {
-  border-left: 5px solid #f0ad4e;
-  background: #fff8e6;
-  padding: 12px 18px;
-  margin: 20px 0;
-}
-
-.info-box {
-  border-left: 5px solid #4a90e2;
-  background: #eef6ff;
-  padding: 12px 18px;
-  margin: 20px 0;
-}
-
-@media (max-width: 700px) {
-  .image-texte {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .image-texte img {
-    max-width: 100%;
-    width: 100%;
-  }
-}
-</style>
+---
+layout: default
+title: Assemblage
+parent: Etapes de fabrication
+nav_order: 2
+---
 
 # Assemblage
 
-Après l’impression des pièces en 3D, l’étape suivante est l’assemblage du robot Otto.
+Après l’impression des pièces en 3D et la préparation du matériel, l’étape suivante est l’assemblage du robot Otto-MKS.
 
-Cette étape permet de monter les servomoteurs, les jambes, les pieds, la tête, la carte électronique, le capteur ultrason et la batterie.
+Cette étape permet de monter les différentes parties du robot : le corps, les jambes, les pieds, la tête, les servomoteurs, le capteur ultrason, la carte électronique et la batterie.
 
-<div class="info-box">
-  Avant de commencer l’assemblage, il est conseillé d’avoir toutes les pièces imprimées, les vis et les composants électroniques devant soi.
-</div>
+![Schéma général du robot Otto](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
 ## Objectif
 
-<div class="image-texte">
-  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png" alt="Schéma général du robot Otto">
+L’objectif de cette étape est d’obtenir un robot Otto entièrement assemblé, prêt à être programmé et testé.
 
-  <div class="texte">
-    <p>
-      L’objectif de cette partie est d’obtenir un robot entièrement assemblé,
-      prêt à être programmé et testé.
-    </p>
+Un bon assemblage est très important, car un mauvais positionnement des servomoteurs peut empêcher le robot de marcher correctement.
 
-```
-<p>
-  Un bon assemblage est important car un mauvais positionnement des servomoteurs
-  peut empêcher le robot de marcher correctement.
-</p>
-
-<p>
-  Il faut donc prendre son temps, bien vérifier le sens des pièces et ne pas forcer
-  sur les servomoteurs.
-</p>
-```
-
-  </div>
-</div>
+Il faut donc prendre son temps, vérifier régulièrement le montage et faire attention au sens des pièces.
 
 ## Matériel
 
-<div class="image-texte">
-  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png" alt="Matériel nécessaire pour assembler Otto">
+Pour commencer, vérifiez que vous disposez de l’ensemble du matériel et des pièces imprimées.
 
-  <div class="texte">
-    <p>
-      Pour commencer, vérifiez que vous disposez de l’ensemble du matériel
-      et des pièces imprimées.
-    </p>
+![Matériel nécessaire](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png)
 
-```
-<p>Il faut notamment :</p>
+Il faut notamment :
 
-<ul>
-  <li>les pièces imprimées en 3D ;</li>
-  <li>la tête du robot ;</li>
-  <li>le corps du robot ;</li>
-  <li>les deux jambes ;</li>
-  <li>les deux pieds ;</li>
-  <li>4 servomoteurs SG90 ;</li>
-  <li>les palonniers des servomoteurs ;</li>
-  <li>le capteur ultrason HC-SR04 ;</li>
-  <li>la carte électronique Otto-MKS ;</li>
-  <li>une batterie 9V ;</li>
-  <li>une cosse de batterie ;</li>
-  <li>un câble USB ;</li>
-  <li>un tournevis ;</li>
-  <li>les vis nécessaires.</li>
-</ul>
-```
-
-  </div>
-</div>
+- les pièces imprimées en 3D ;
+- la tête du robot ;
+- le corps du robot ;
+- les deux jambes ;
+- les deux pieds ;
+- 4 servomoteurs SG90 ;
+- les palonniers des servomoteurs ;
+- le capteur ultrason HC-SR04 ;
+- la carte électronique Otto-MKS ;
+- une batterie 9V ;
+- une cosse de batterie ;
+- un câble USB ;
+- un tournevis ;
+- les vis nécessaires.
 
 ## Précautions avant l’assemblage
 
-<div class="warning-box">
-  <strong>Attention :</strong> les servomoteurs sont fragiles. Il ne faut pas forcer leur rotation à la main, car cela peut abîmer les engrenages internes.
-</div>
+Avant d’assembler le robot, il faut avoir suivi les étapes précédentes du projet, notamment l’impression des pièces et le test des servomoteurs.
 
-<p>
-Avant de commencer, il faut prendre son temps et vérifier chaque étape.
-</p>
+Les servomoteurs sont fragiles. Il ne faut pas forcer leur rotation à la main, car cela peut abîmer les engrenages internes.
 
-<p>
-Il faut aussi faire attention au type de vis utilisé. Une vis trop longue ou mal placée peut endommager une pièce imprimée en 3D ou un servomoteur.
-</p>
+Il faut aussi vérifier le type de vis utilisé à chaque étape. Une vis trop longue ou mal placée peut endommager une pièce imprimée en 3D ou un servomoteur.
 
-<p>
-Les servomoteurs doivent être positionnés à 90° avant d’installer les jambes et les pieds. Cette position correspond à la position neutre du robot.
-</p>
+Les servomoteurs doivent être placés à 90° avant de fixer les jambes et les pieds. Cette position correspond à la position neutre du robot.
 
-## Étapes d’assemblage
+![Schéma d’assemblage Otto](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
-## Étape 1 - Assemblage du corps
+## Étapes d'Assemblage
 
-<p>
-Insérez les servomoteurs dans la pièce <code>Body</code>, aux emplacements prévus.
-</p>
+### 1. Organisation
 
-<p>
-Les servomoteurs doivent être placés correctement et bien alignés.
-</p>
+Organisez tous les composants préparés.
 
-<p>
-Il faut vérifier que les câbles ressortent dans le bon sens afin de faciliter le câblage à la fin du montage.
-</p>
+Avant de commencer, il faut vérifier que toutes les pièces sont présentes et que les composants électroniques sont prêts à être utilisés.
 
-## Étape 2 - Vissage des servomoteurs du corps
+![Liste du matériel](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png)
 
-<p>
+### 2. Assemblage du corps
+
+Insérez les servomoteurs dans la pièce `Body`, aux emplacements prévus.
+
+Les servomoteurs doivent être bien alignés et placés dans le bon sens afin de faciliter le câblage à la fin du montage.
+
+![Assemblage du corps](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
+
+### 3. Vissage des servomoteurs du corps
+
 Vissez les servomoteurs dans le corps du robot.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> vérifiez le type de vis avant de visser.
-</div>
+Il faut vérifier le type de vis avant de visser.
 
-<p>
-Il ne faut pas trop serrer afin de ne pas abîmer le plastique imprimé en 3D.
-</p>
+Ne serrez pas trop fort pour éviter d’abîmer le plastique imprimé en 3D.
 
-<p>
-Les servomoteurs doivent être maintenus fermement, mais sans forcer.
-</p>
+### 4. Assemblage des palonniers des jambes
 
-## Étape 3 - Assemblage des palonniers des jambes
-
-<p>
 Découpez deux palonniers comme indiqué dans le tutoriel.
-</p>
 
-<p>
-Insérez ensuite les palonniers dans les pièces <code>Leg</code>.
-</p>
+Insérez ensuite les palonniers dans les pièces `Leg`.
 
-<p>
-Les palonniers doivent être enfoncés jusqu’au fond de leur emplacement.
-</p>
+Les palonniers doivent être enfoncés jusqu’au fond des emplacements prévus.
 
-<p>
-Cette étape permet de relier les jambes aux axes des servomoteurs.
-</p>
+![Palonniers et servomoteurs](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png)
 
-## Étape 4 - Positionnement des servomoteurs à 90°
+### 5. Positionnement des servomoteurs à 90°
 
-<div class="warning-box">
-  <strong>Attention :</strong> cette étape est très importante. Si les servomoteurs ne sont pas centrés correctement, le robot peut marcher de travers.
-</div>
+Avant d’assembler les jambes, il faut positionner les servomoteurs à 90°.
 
-<p>
-Branchez les servomoteurs sur la carte électronique.
-</p>
+Pour cela, branchez les servomoteurs sur la carte électronique puis utilisez le programme Arduino prévu pour les placer en position neutre.
 
-<p>
-Lancez le programme Arduino permettant de placer les servomoteurs à 90°.
-</p>
+Cette étape est importante, car si les servomoteurs ne sont pas bien centrés, le robot risque de marcher de travers.
 
-<p>
-Cette position correspond à la position neutre des jambes.
-</p>
+### 6. Assemblage des jambes
 
-<p>
-Une fois les servomoteurs positionnés, il ne faut plus les tourner à la main.
-</p>
+Insérez les jambes sur les axes des servomoteurs.
 
-## Étape 5 - Assemblage des jambes
+Les jambes doivent être placées dans la bonne position et être symétriques.
 
-<p>
-Insérez les jambes sur les axes des servomoteurs dans la bonne position.
-</p>
-
-<p>
-Les jambes doivent être symétriques et orientées correctement.
-</p>
-
-<p>
 Après l’installation, vérifiez que les butées sont bien placées autour de la position neutre.
-</p>
 
-<p>
-Cela permet aux jambes de bouger correctement pendant la marche du robot.
-</p>
+![Assemblage des jambes](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
-## Étape 6 - Vissage des jambes
+### 7. Vissage des jambes
 
-<p>
 Vissez les jambes sur les axes des servomoteurs.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> vérifiez le type de vis avant de visser.
-</div>
+Il faut vérifier le type de vis avant de visser.
 
-<p>
 Les jambes doivent être bien fixées, mais il ne faut pas forcer sur les servomoteurs.
-</p>
 
-<p>
-Si une jambe semble mal alignée, il vaut mieux la retirer et la replacer plutôt que de forcer.
-</p>
+### 8. Assemblage des palonniers des pieds
 
-## Étape 7 - Assemblage des palonniers des pieds
+Insérez les palonniers dans les pièces `Left_Foot` et `Right_Foot`.
 
-<p>
-Insérez les palonniers dans les pièces <code>Left_Foot</code> et <code>Right_Foot</code>.
-</p>
-
-<p>
 Les palonniers doivent être enfoncés jusqu’à la butée.
-</p>
 
-<p>
-Ils permettront ensuite de fixer les pieds aux servomoteurs.
-</p>
+### 9. Vissage des palonniers des pieds
 
-## Étape 8 - Vissage des palonniers des pieds
-
-<p>
 Vissez fermement les palonniers dans les pieds.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> vérifiez le type de vis utilisé.
-</div>
+Il faut vérifier le type de vis utilisé.
 
-<p>
 Cette étape permet de créer une liaison solide entre les pieds et les servomoteurs.
-</p>
 
-<p>
-Les pieds doivent rester bien droits pour que le robot soit stable.
-</p>
+![Assemblage des pieds](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
-## Étape 9 - Positionnement des servomoteurs des pieds
+### 10. Assemblage des servomoteurs des pieds
 
-<div class="warning-box">
-  <strong>Attention :</strong> comme pour les jambes, les servomoteurs des pieds doivent être positionnés à 90° avant le montage.
-</div>
+Comme pour les jambes, branchez les deux servomoteurs des pieds sur la carte électronique.
 
-<p>
-Branchez les deux servomoteurs des pieds sur la carte électronique.
-</p>
+Lancez le programme de positionnement à 90°.
 
-<p>
-Lancez à nouveau le programme de positionnement à 90°.
-</p>
+Insérez ensuite les servomoteurs dans les pièces `Foot` dans la position indiquée.
 
-<p>
-Une fois les servomoteurs centrés, ne les tournez plus à la main.
-</p>
+Vérifiez que les butées se trouvent bien à 90° de chaque côté de la position neutre.
 
-## Étape 10 - Assemblage des servomoteurs des pieds
+### 11. Vissage des servomoteurs des pieds
 
-<p>
-Insérez les servomoteurs dans les pièces <code>Foot</code> en respectant leur orientation.
-</p>
-
-<p>
-Vérifiez que les butées sont bien à 90° de chaque côté de la position neutre.
-</p>
-
-<p>
-Les câbles doivent être orientés correctement pour pouvoir remonter dans le corps du robot.
-</p>
-
-## Étape 11 - Vissage des servomoteurs des pieds
-
-<p>
 Vissez les axes des servomoteurs des pieds.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> vérifiez le type de vis avant de visser.
-</div>
+Il faut vérifier le type de vis avant de visser.
 
-<p>
-Il faut aussi faire attention à ne pas tirer sur les câbles des servomoteurs.
-</p>
+Faites attention à ne pas tirer sur les câbles des servomoteurs.
 
-## Étape 12 - Assemblage des pieds avec les jambes
+### 12. Assemblage des pieds
 
-<p>
-Insérez les pieds dans les emplacements prévus sur les jambes.
-</p>
+Insérez les pieds dans les emplacements prévus des pièces `Leg`.
 
-<p>
-Faites passer les fils des servomoteurs dans les trous de la pièce <code>Body</code>.
-</p>
+Faites passer les fils des servomoteurs dans les trous de la pièce `Body`.
 
-<p>
-Les câbles doivent pouvoir remonter proprement à l’intérieur du robot.
-</p>
+Les câbles doivent remonter proprement dans le corps du robot.
 
-<p>
-À cette étape, le robot commence à prendre sa forme finale.
-</p>
+![Pieds du robot Otto](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
-## Étape 13 - Vissage final des pieds
+### 13. Vissage final des pieds
 
-<p>
 Vissez la deuxième vis des servomoteurs.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> vérifiez le type de vis avant de visser.
-</div>
-
-<p>
 Les pieds doivent être bien fixés aux jambes.
-</p>
 
-<p>
-Vérifiez que les pieds sont alignés et que le robot peut tenir debout.
-</p>
+Vérifiez que le robot peut tenir debout et que les pieds sont correctement alignés.
 
-## Étape 14 - Assemblage du capteur ultrason
+### 14. Assemblage du capteur ultrason
 
-<p>
-Glissez le capteur ultrason HC-SR04 dans la pièce <code>Head</code>.
-</p>
+Glissez le capteur ultrason HC-SR04 dans la pièce `Head`.
 
-<p>
 Il faut respecter le sens indiqué pour que les deux capteurs soient visibles à l’avant du robot.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> les grilles avant du capteur ultrason sont fragiles. Il faut éviter d’appuyer dessus.
-</div>
+Les grilles avant du capteur ultrason sont fragiles. Il faut éviter d’appuyer dessus.
 
-<p>
-Le capteur ultrason permettra au robot de détecter les obstacles devant lui.
-</p>
+![Capteur ultrason et électronique](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png)
 
-## Étape bonus - Pause canard
+### 15. Préparation de la carte électronique
 
-<div class="image-texte image-texte-small">
-  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/duck.png" alt="Canard jaune">
-
-  <div class="texte">
-    <p>
-      Prenez une petite pause pour observer le canard jaune du kit.
-    </p>
-
-```
-<p>
-  Si vous avez rencontré des problèmes depuis le début du montage,
-  il saura vous écouter avec compassion.
-</p>
-```
-
-  </div>
-</div>
-
-## Étape 15 - Préparation de la carte électronique
-
-<p>
 Dévissez la rondelle et l’écrou du bouton de la carte électronique.
-</p>
 
-<p>
 Conservez-les, car ils seront réutilisés pour fixer la carte dans la tête du robot.
-</p>
 
-<p>
-Cette étape permet de préparer l’installation de la carte dans la pièce <code>Head</code>.
-</p>
+### 16. Installation de la carte électronique
 
-## Étape 16 - Installation de la carte électronique
+Insérez délicatement la carte électronique dans la pièce `Head`.
 
-<p>
-Insérez délicatement la carte électronique dans la pièce <code>Head</code>.
-</p>
-
-<p>
 Vérifiez que les broches du capteur ultrason s’insèrent correctement dans le connecteur de la carte.
-</p>
 
-<p>
 Le bouton doit être enfoncé jusqu’à la butée.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> il faut manipuler la carte avec précaution pour ne pas plier les broches du capteur ultrason.
-</div>
+### 17. Fixation de la tête
 
-## Étape 17 - Fixation de la tête
-
-<p>
 Remettez la rondelle, puis revissez l’écrou du bouton.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> l’ergot de la rondelle doit s’insérer dans l’un des trous prévus.
-</div>
+L’ergot de la rondelle doit s’insérer dans l’un des trous prévus.
 
-<p>
 Cela permet de maintenir correctement la carte électronique dans la tête.
-</p>
 
-<p>
-Vérifiez que le bouton reste accessible depuis l’extérieur.
-</p>
+### 18. Installation de la batterie
 
-## Étape 18 - Installation de la batterie
-
-<p>
 Fixez la cosse 9V sur la batterie.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> la carte ne doit surtout pas être branchée à l’envers, sinon elle peut être endommagée.
-</div>
+La carte ne doit surtout pas être branchée à l’envers, sinon elle peut être endommagée.
 
-<p>
 Insérez ensuite la batterie dans son emplacement, avec les câbles orientés vers le haut.
-</p>
 
-<p>
-La batterie doit être bien placée pour ne pas gêner la fermeture de la tête.
-</p>
+![Batterie et composants](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png)
 
-## Étape 19 - Câblage des servomoteurs
+### 19. Câblage des servomoteurs
 
-<p>
 Branchez les servomoteurs sur la carte électronique en respectant l’ordre prévu.
-</p>
 
-<p>
 Il faut également vérifier le sens des connecteurs :
-</p>
 
-<ul>
-  <li>fil marron : masse ;</li>
-  <li>fil rouge : +5V ;</li>
-  <li>fil jaune : signal.</li>
-</ul>
+- fil marron : masse ;
+- fil rouge : +5V ;
+- fil jaune : signal.
 
-<div class="warning-box">
-  <strong>Attention :</strong> un mauvais branchement peut empêcher le robot de fonctionner correctement.
-</div>
+Un mauvais branchement peut empêcher le robot de fonctionner correctement.
 
-<p>
-Avant de refermer le robot, vérifiez que chaque câble est branché au bon endroit.
-</p>
+### 20. Rangement des câbles
 
-## Étape 20 - Rangement des câbles
-
-<p>
 Utilisez une bande de velcro pour organiser les câbles proprement à l’intérieur du robot.
-</p>
 
-<p>
 Les câbles ne doivent pas gêner la fermeture de la tête.
-</p>
 
-<p>
 Ils ne doivent pas non plus bloquer le mouvement des servomoteurs.
-</p>
 
-## Étape 21 - Assemblage final
+### 21. Assemblage final
 
-<p>
 Refermez la tête sur le corps.
-</p>
 
-<p>
 Appuyez légèrement sur les côtés pour faciliter l’emboîtement.
-</p>
 
-<div class="warning-box">
-  <strong>Attention :</strong> vérifiez qu’aucun câble n’est coincé entre la tête et le corps.
-</div>
+Vérifiez qu’aucun câble n’est coincé entre la tête et le corps.
 
-<p>
 Une fois la tête fermée, le robot Otto est entièrement assemblé.
-</p>
 
-## Vérifications à effectuer
+![Robot Otto terminé](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
-<p>
+## Vérifications à Effectuer
+
 Avant de tester le robot, il faut vérifier que :
-</p>
 
-<ul>
-  <li>les servomoteurs sont bien vissés ;</li>
-  <li>les jambes sont dans le bon sens ;</li>
-  <li>les pieds sont bien alignés ;</li>
-  <li>les câbles ne sont pas coincés ;</li>
-  <li>les connecteurs sont branchés dans le bon sens ;</li>
-  <li>le capteur ultrason est bien placé ;</li>
-  <li>la batterie est bien connectée ;</li>
-  <li>la tête se ferme correctement ;</li>
-  <li>aucune pièce ne bloque le mouvement.</li>
-</ul>
+- les servomoteurs sont bien vissés ;
+- les jambes sont dans le bon sens ;
+- les pieds sont bien alignés ;
+- les câbles ne sont pas coincés ;
+- les connecteurs sont branchés dans le bon sens ;
+- le capteur ultrason est bien placé ;
+- la batterie est bien connectée ;
+- la tête se ferme correctement ;
+- aucune pièce ne bloque le mouvement.
 
-## Problèmes communs et solutions
+![Vérification du robot Otto](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
 
-## Le robot marche de travers
+## Problèmes Communs et Solutions
 
-<p>
+### Le robot marche de travers
+
 Cela peut venir d’un mauvais centrage des servomoteurs.
-</p>
 
-<p>
 Il faut relancer le programme de positionnement à 90°, puis replacer les jambes ou les pieds correctement.
-</p>
 
-<p>
 Il faut aussi vérifier que les trims dans le programme correspondent bien à la position réelle des servomoteurs.
-</p>
 
-## Les pièces ne s’emboîtent pas correctement
+### Les pièces ne s’emboîtent pas correctement
 
-<p>
 Les pièces imprimées en 3D peuvent parfois avoir de légères différences de dimensions.
-</p>
 
-<p>
 Solutions possibles :
-</p>
 
-<ul>
-  <li>vérifier l’orientation des pièces ;</li>
-  <li>poncer légèrement les zones qui bloquent ;</li>
-  <li>vérifier les dimensions dans le slicer ;</li>
-  <li>modifier légèrement l’échelle des pièces dans le slicer.</li>
-</ul>
+- vérifier l’orientation des pièces ;
+- poncer légèrement les zones qui bloquent ;
+- vérifier les dimensions dans le slicer ;
+- modifier légèrement l’échelle des pièces dans le slicer directement.
 
-## Un servomoteur ne bouge pas
+### Un servomoteur ne bouge pas
 
-<p>
 Il faut vérifier :
-</p>
 
-<ul>
-  <li>le branchement du servomoteur ;</li>
-  <li>le sens du connecteur ;</li>
-  <li>le câble ;</li>
-  <li>le programme Arduino ;</li>
-  <li>l’alimentation de la carte.</li>
-</ul>
+- le branchement du servomoteur ;
+- le sens du connecteur ;
+- le câble ;
+- le programme Arduino ;
+- l’alimentation de la carte.
 
-## La tête ne ferme pas
+### La tête ne ferme pas
 
-<p>
 Cela arrive souvent si les câbles sont mal rangés.
-</p>
 
-<p>
 Il faut replacer les câbles avec le velcro et vérifier qu’ils ne sont pas coincés.
-</p>
 
-<p>
 Il faut aussi vérifier que la batterie est correctement positionnée.
-</p>
 
-## Le robot ne s’allume pas
+### Le robot ne s’allume pas
 
-<p>
 Il faut vérifier :
-</p>
 
-<ul>
-  <li>la batterie ;</li>
-  <li>la cosse 9V ;</li>
-  <li>le connecteur d’alimentation ;</li>
-  <li>le sens de branchement ;</li>
-  <li>la carte électronique.</li>
-</ul>
+- la batterie ;
+- la cosse 9V ;
+- le connecteur d’alimentation ;
+- le sens de branchement ;
+- la carte électronique.
 
-## Les servomoteurs font du bruit
+### Les servomoteurs font du bruit
 
-<p>
 Un léger bruit peut être normal, mais si un servomoteur force beaucoup, il faut vérifier que la pièce n’est pas bloquée.
-</p>
 
-<p>
 Il faut aussi vérifier que les jambes et les pieds sont bien centrés.
-</p>
 
-## Le robot tombe facilement
+### Le robot tombe facilement
 
-<p>
 Cela peut venir d’un mauvais alignement des pieds ou d’un mauvais centrage des servomoteurs.
-</p>
 
-<p>
 Il faut vérifier la position des pieds, le serrage des vis et les valeurs de correction dans le programme.
-</p>
 
-## À vous de jouer !
+## Pause canard
 
-<div class="image-texte">
-  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png" alt="Robot Otto terminé">
+Prenez une petite pause pour observer le canard jaune du kit.
 
-  <div class="texte">
-    <p>
-      Félicitations, votre robot Otto est maintenant assemblé.
-    </p>
+Si vous avez rencontré des problèmes pendant le montage, il saura vous écouter avec compassion.
 
-```
-<p>
-  Il peut maintenant être programmé, testé et amélioré.
-</p>
+![Canard jaune](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/duck.png)
 
-<p>
-  L’assemblage doit être réalisé avec soin, car le positionnement des servomoteurs
-  et le rangement des câbles influencent directement le bon fonctionnement du robot.
-</p>
-```
+## Conclusion
 
-  </div>
-</div>
+Une fois l’assemblage terminé, le robot Otto est prêt à être programmé, testé et amélioré.
+
+Cette étape doit être réalisée avec soin, car le positionnement des servomoteurs et le rangement des câbles influencent directement le bon fonctionnement du robot.

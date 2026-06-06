@@ -1,45 +1,104 @@
+```markdown
+---
+layout: default
+title: Assemblage
+parent: Etapes de fabrication
+nav_order: 2
+---
+
+<style>
+.image-texte {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 25px 0;
+}
+
+.image-texte img {
+  width: 330px;
+  max-width: 45%;
+  border-radius: 8px;
+}
+
+.image-texte .texte {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .image-texte {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-texte img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+</style>
+
 # Assemblage
 
-Après l’impression des pièces en 3D, l’étape suivante est l’assemblage du robot Otto.  
+Après l’impression des pièces en 3D, l’étape suivante est l’assemblage du robot Otto.
+
 Cette étape permet de monter les servomoteurs, les jambes, les pieds, la tête, la carte électronique, le capteur ultrason et la batterie.
 
-![Schéma général du robot Otto](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png)
+<div class="image-texte">
+  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/OttoIkea.png" alt="Schéma général du robot Otto">
 
-## Objectif
+  <div class="texte">
+    <h2>Objectif</h2>
 
-L’objectif de cette partie est d’obtenir un robot entièrement assemblé, prêt à être programmé et testé.
+    <p>
+      L’objectif de cette partie est d’obtenir un robot entièrement assemblé,
+      prêt à être programmé et testé.
+    </p>
 
-Un bon assemblage est important car un mauvais positionnement des servomoteurs peut empêcher le robot de marcher correctement.
+    <p>
+      Un bon assemblage est important car un mauvais positionnement des servomoteurs
+      peut empêcher le robot de marcher correctement.
+    </p>
+  </div>
+</div>
 
-## Matériel nécessaire
+## Matériel
 
-Avant de commencer, il faut vérifier que tout le matériel est présent.
+<div class="image-texte">
+  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png" alt="Matériel nécessaire pour assembler Otto">
 
-![Matériel nécessaire](https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/BOM.png)
+  <div class="texte">
+    <p>
+      Pour commencer, vérifiez que vous disposez de l’ensemble du matériel
+      et des pièces imprimées.
+    </p>
 
-Il faut notamment :
+    <p>Il faut notamment :</p>
 
-- les pièces imprimées en 3D ;
-- la tête ;
-- le corps ;
-- les deux jambes ;
-- les deux pieds ;
-- 4 servomoteurs SG90 ;
-- les palonniers des servomoteurs ;
-- le capteur ultrason HC-SR04 ;
-- la carte électronique Otto-MKS ;
-- une batterie 9V ;
-- une cosse de batterie ;
-- un câble USB ;
-- un tournevis ;
-- les vis nécessaires.
+    <ul>
+      <li>les pièces imprimées en 3D ;</li>
+      <li>la tête ;</li>
+      <li>le corps ;</li>
+      <li>les deux jambes ;</li>
+      <li>les deux pieds ;</li>
+      <li>4 servomoteurs SG90 ;</li>
+      <li>les palonniers des servomoteurs ;</li>
+      <li>le capteur ultrason HC-SR04 ;</li>
+      <li>la carte électronique Otto-MKS ;</li>
+      <li>une batterie 9V ;</li>
+      <li>une cosse de batterie ;</li>
+      <li>un câble USB ;</li>
+      <li>un tournevis ;</li>
+      <li>les vis nécessaires.</li>
+    </ul>
+  </div>
+</div>
 
 ## Précautions avant l’assemblage
 
-Avant de commencer, il faut prendre son temps et vérifier chaque étape.
-
 > ⚠️ Les servomoteurs sont fragiles.  
 > Il ne faut pas forcer leur rotation à la main, car cela peut abîmer les engrenages internes.
+
+Avant de commencer, il faut prendre son temps et vérifier chaque étape.
 
 Il faut aussi faire attention au type de vis utilisé.  
 Une vis trop longue ou mal placée peut endommager une pièce ou un servomoteur.
@@ -51,10 +110,6 @@ Une vis trop longue ou mal placée peut endommager une pièce ou un servomoteur.
 Insérez les servomoteurs dans la pièce `Body`, aux emplacements prévus.
 
 Les servomoteurs doivent être placés correctement et bien alignés.
-
-<!-- Image possible :
-![Assemblage du corps](images/assemblage-corps.png)
--->
 
 ### Étape 2 - Vissage des servomoteurs
 
@@ -152,6 +207,23 @@ Il faut respecter le sens indiqué pour que les deux capteurs soient visibles à
 
 > ⚠️ Les grilles avant du capteur ultrason sont fragiles.  
 > Il faut éviter d’appuyer dessus.
+
+### Étape bonus - Pause canard
+
+<div class="image-texte">
+  <img src="https://makerspace-amiens.fr/otto-mks/docs/tutoriels/09-assemble-otto/duck.png" alt="Canard de pause">
+
+  <div class="texte">
+    <p>
+      Prenez une petite pause pour observer le canard jaune du kit.
+    </p>
+
+    <p>
+      Si vous avez rencontré des problèmes depuis le début du montage,
+      il saura vous écouter avec compassion.
+    </p>
+  </div>
+</div>
 
 ### Étape 14 - Préparation de la carte électronique
 
